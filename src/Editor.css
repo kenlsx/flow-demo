@@ -1,0 +1,31 @@
+.cont {
+  display: flex;
+}
+
+.itempannel,
+.left,
+.right {
+  width: 300px;
+}
+.page {
+  width: calc(100% - 600px);
+  height: 800px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.helloworld-app {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-content {
+  flex: 1;
+  height: 800px;
+  margin-right: 8px;
+  margin-left: 8px;
+  border-radius: 5px;
+  box-shadow: 0 12px 5px -10px rgb(0 0 0 / 10%), 0 0 4px 0 rgb(0 0 0 / 10%);
+}
